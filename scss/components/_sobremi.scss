@@ -1,0 +1,68 @@
+.bodyindexprincipal{
+	.bodyindexprincipal{
+		padding-bottom: 85rem;
+	}
+	.navbarmodificado{
+		background-color: #ed79ed;
+	}
+	.navbarmodificado{
+		align-items: center;
+		justify-content: center;
+		padding: 2rem 5rem;
+				
+	}
+	.navbarmodificado{
+		color: black;
+		font-family: map-get($fWeight: $typo ); /*map*/
+		@include colores (pink, 200px , 50px ); /*mixin*/
+		font-weight: 700;
+		margin-right: 5rem;
+		margin-left: 5rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		
+	}
+	
+}
+div{
+
+	.tamañoimageninternacarrusel{
+		width: 100%;
+		height: 24rem;
+	}
+	.tamañocarrusel{
+		height: 25rem;
+	}
+	
+}
+.pie{
+	@extend .pie; /*extend*/
+}
+
+/*mobile*/
+@media (max-width: 991.98px) {
+	flex-direction column,
+
+	header{
+		background-color: coral;
+		grid-area: header;
+	}
+	main{
+		background-color: coral;
+		grid-area: main;
+	}
+	.textoprincipaltrabajos{
+		background-color: coral;
+		grid-area: main;
+	}
+	.tarjeta{
+		grid-area: main;
+	}
+	
+	
+	footer{
+		background-color:darkseagreen;
+		grid-area: footer;
+		background-image: linear-gradient(to left, purple, pink);
+	}
+}	

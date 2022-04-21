@@ -1,0 +1,32 @@
+%display{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.pie{
+	justify-content: space-between;
+	font-family: map-get($fWeight: $typo );
+    position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+footer{
+    background-image: linear-gradient(to left, purple, pink);
+}
+
+
+
+/*
+
+.footer-index{
+    background-color: aquamarine;
+    @extend %disposicion;
+
+}
+
+.fila-footer{
+    background-color: chocolate;
+    @extend disposicion;
+}

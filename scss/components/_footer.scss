@@ -1,0 +1,24 @@
+@import "../base/variables";
+
+
+.pie{
+	justify-content: space-between;
+	font-family: 'Redressed', cursive;
+    font-family: 'Roboto', sans-serif;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-top: auto;
+	
+}
+
+/*mobile*/
+@media (max-width: 991.98px) {
+	flex-direction: column;
+	}
+
+footer{
+    background-color:darkseagreen;
+    grid-area: footer;
+    background-image: linear-gradient(to left, purple, pink);
+} 

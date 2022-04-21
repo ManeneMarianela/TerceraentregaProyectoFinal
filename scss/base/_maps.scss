@@ -1,0 +1,18 @@
+
+$fWeight:(
+    typo: 'Redressed', cursive,
+    peso-typo: 700,
+);
+
+$header:(
+    bg-header: darksalmon,
+    decoration: none,
+    bordes:2px solid black,
+    font-family: map-get($fWeight: $typo )
+);
+
+
+
+$footer:(
+    background-image: linear-gradient(to left, purple, pink),
+);

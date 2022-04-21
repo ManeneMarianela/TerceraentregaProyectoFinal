@@ -1,0 +1,67 @@
+*{margin: 0;
+    border: 0;
+    padding: 0;
+    }
+    
+    body{
+        color: rgb(20, 20, 3);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    
+    .header{
+        height: 10em;
+        padding: 5em;
+        
+        background-image:linear-gradient(pink, purple, green)
+        background-size:radial-gradient() cover;
+        background-position: center;
+        
+        }
+    
+    .header h1{
+        margin: 0em;
+        font-weight: 400;
+        color: rgb(254, 255, 181);
+        font-family: fantasy;
+        
+    }
+    .header p{
+        margin: 0em 
+        text-align: left;
+        color: rgb(254, 255, 181);
+        font-family: fantasy
+    }
+    
+    .p{ 
+        margin: 0em 
+        padding: 0.5em;
+        background-size: cover;
+        background-position: center;
+        
+    }
+        
+    
+    
+    .products {
+        width: 80%;
+        margin: auto;
+        }
+     .products td{
+            width: 50%;
+            padding: 2em;
+            }
+    .products img{
+            width: 100%;
+            border: solid 1px #ddd;
+            }
+    
+    .footer{
+        height: 3em;
+        line-height: 3em;
+        background-color: rgb(124, 100, 75);
+        color: white;
+        text-align: center;
+        font-weight: 900;
+            }
+    

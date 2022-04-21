@@ -1,0 +1,22 @@
+//@mixin PieDePagina {
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
+//}
+
+//.cajafooter{
+    //@include PieDePagina()
+//}
+
+@mixin colores($colors, $ancho, $borde) {
+    background-color: $colors;
+    width: $ancho;
+    padding: $borde;
+}
+.header.index{
+    @include colores(pink, 200px , 50px )
+}
+footer{
+    font-size: 30px;
+    @include colores(purple, 250px , 25px )
+}

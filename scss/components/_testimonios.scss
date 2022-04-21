@@ -1,0 +1,105 @@
+.bodyindexprincipal{
+    padding-bottom: 85rem;
+}
+.navbarmodificado{
+    background-color: #ed79ed;
+}
+.navbarmodificado{
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 5rem;
+            
+}
+.navbarmodificado{
+    color: black;
+    font-family: map-get($fWeight: $typo ); /*map*/
+    @include colores (pink, 200px , 50px ); /*mixin*/
+    font-weight: 700;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.textoprincipaltestimonios{
+	color: darkslategrey;
+	font-size: large;
+	font-weight: 700;
+	font-family: map-get($fWeight: $typo ); /*map*/
+	text-align: left;
+	line-height: 4rem;
+	text-align: center;
+}
+.textoprincipaltestimonios{
+	background-image: linear-gradient(to left, pink, burlywood);
+}
+form{
+	width: 450px;
+	margin: auto;
+	background-color:lightpink;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+	border-radius: 0.5rem;
+}
+.comentariosformulario{
+	color:darkslategrey;
+	text-align:center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+@keyframes aparecer {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+}
+	
+.pie{
+@extend .pie; /*extend*/
+}
+
+/*mobile*/
+@media (max-width: 991.98px) {
+flex-direction column,
+
+header{
+    background-color: coral;
+    grid-area: header;
+}
+main{
+    background-color: coral;
+    grid-area: main;
+}
+.textoprincipaltrabajos{
+    background-color: coral;
+    grid-area: main;
+}
+.tarjeta{
+    grid-area: main;
+}
+
+
+footer{
+    background-color:darkseagreen;
+    grid-area: footer;
+    background-image: linear-gradient(to left, purple, pink);
+}
+}	

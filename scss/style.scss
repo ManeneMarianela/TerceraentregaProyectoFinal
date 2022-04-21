@@ -1,0 +1,16 @@
+/*estructura*/
+@import "../scss/components/header";
+@import "../scss/components/body";
+@import "../scss/components/footer";
+/*componentes*/
+@import "../scss/components/index";
+@import "../scss/components/sobremi";
+@import "../scss/components/trabajos";
+@import "../scss/components/testimonios";
+@import "../scss/components/contacto";
+/*base*/
+@import "../scss/base/variables";
+@import "../scss/base/extends";
+@import "../scss/base/operadores";
+@import "../scss/base/mixin";
+@import "../scss/base/maps";
